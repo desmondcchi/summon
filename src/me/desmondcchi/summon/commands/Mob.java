@@ -15,7 +15,7 @@ import org.bukkit.entity.Slime;
 
 import net.md_5.bungee.api.ChatColor;
 
-public class Spawn implements CommandExecutor {
+public class Mob implements CommandExecutor {
 	private Player player;
 	
 	@Override
