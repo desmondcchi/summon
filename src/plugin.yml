@@ -1,5 +1,16 @@
 main: me.desmondcchi.summon.Main
 name: Summon
 author: desmondcchi
-version: 0.0.1
+version: 1.0.0
 description: Summon custom mobs!
+
+commands:
+   mob:
+      usage: /mob <MOB_TYPE> <QUANTITY>
+      description: Spawns mobs!
+   mob slime:
+      usage: /mob slime <QUANTITY> <SIZE>
+      description: Spawns a slime with a custom size.
+   mob magmacube:
+      usage: /mob magmacube <QUANTITY> <SIZE>
+      description: Spawns a magma cube with a custom size.
